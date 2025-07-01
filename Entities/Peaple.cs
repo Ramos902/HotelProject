@@ -5,6 +5,10 @@ namespace Entities
         private string StartName { get; set; }
         private string EndName { get; set; }
 
+        public Peaple()
+        {
+
+        }
         public Peaple(string startName, string endName)
         {
             StartName = startName;

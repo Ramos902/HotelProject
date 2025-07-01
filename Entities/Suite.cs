@@ -2,20 +2,22 @@ namespace Entities
 {
     class Suite
     {
-        private string TipoSuite { get; set; }
-        private int Capacity { get; set; }
-        private decimal DiaryCost { get; set; }
+        private int IdSuite { get; set; }
+        private string TypeSuite { get; set; }
+        internal int Capacity { get; set; }
+        internal decimal DiaryCost { get; set; }
 
-        public Suite(string tipoSuite, int capacity, decimal diaryCost)
+        public Suite(int idSuite, string typeSuite, int capacity, decimal diaryCost)
         {
-            TipoSuite = tipoSuite;
+            IdSuite = idSuite;
+            TypeSuite = typeSuite;
             Capacity = capacity;
             DiaryCost = diaryCost;
         }
 
         public override string ToString()
         {
-            return $"";
+            return $"=======| Suite |=======\nIDSuite: {IdSuite}\nType: {TypeSuite}\nCapacity: {Capacity}\nDiary Cost: {DiaryCost}";
         }
     }
 }
