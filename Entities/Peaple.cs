@@ -1,4 +1,4 @@
-namespace Entities
+namespace HotelProject.Entities
 {
     class Peaple
     {
@@ -6,9 +6,7 @@ namespace Entities
         private string EndName { get; set; }
 
         public Peaple()
-        {
-
-        }
+{}
         public Peaple(string startName, string endName)
         {
             StartName = startName;

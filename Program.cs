@@ -1,7 +1,6 @@
 ﻿using Entities;
-using Utilities;
 
-namespace HotelProject
+namespace HotelProject.Entities
 {
     class Program
     {

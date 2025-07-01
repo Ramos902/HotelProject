@@ -1,7 +1,7 @@
 using System.Globalization;
 using Entities;
 
-namespace Utilities
+namespace HotelProject.Entities
 {
     class Reservations
     {
